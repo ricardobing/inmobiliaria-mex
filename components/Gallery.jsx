@@ -1,11 +1,11 @@
 const galleryImages = [
-  "https://images.unsplash.com/photo-1600607687644-c7171b42498b?w=800&q=80",
+  "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&q=80",
   "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=800&q=80",
   "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=800&q=80",
   "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?w=800&q=80",
   "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&q=80",
   "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800&q=80",
-  "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&q=80",
+  "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=800&q=80",
   "https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=800&q=80"
 ]
 
