@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #1B7F5A;
+  --primary-dark: #0F5940;
+  --primary-light: #2DA574;
+  --dark: #1A1A1A;
+  --dark-800: #252525;
+  --dark-900: #0A0A0A;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  background-color: var(--dark);
+  color: white;
+  overflow-x: hidden;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  
+  .green-underline {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .green-underline::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(90deg, #1B7F5A 0%, #2DA574 100%);
+    border-radius: 2px;
+  }
+}
